@@ -1,0 +1,649 @@
+month,business_unit,department,location,state,job_family,scenario_name,planned_headcount
+2025-07-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Budget,2976
+2025-07-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Forecast,3074
+2025-07-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Budget,2267
+2025-07-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Forecast,2344
+2025-07-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Budget,589
+2025-07-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Forecast,492
+2025-07-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Budget,2031
+2025-07-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Forecast,1938
+2025-07-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Budget,1324
+2025-07-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Forecast,1361
+2025-07-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Budget,934
+2025-07-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Forecast,1006
+2025-07-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Budget,2463
+2025-07-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Forecast,2315
+2025-07-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Budget,2096
+2025-07-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Forecast,2183
+2025-07-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Budget,855
+2025-07-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Forecast,854
+2025-07-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Budget,2364
+2025-07-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Forecast,2409
+2025-07-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Budget,2045
+2025-07-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Forecast,2023
+2025-07-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Budget,752
+2025-07-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Forecast,615
+2025-07-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Budget,1996
+2025-07-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Forecast,1948
+2025-07-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Budget,1785
+2025-07-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Forecast,1780
+2025-07-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Budget,806
+2025-07-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Forecast,730
+2025-07-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Budget,2123
+2025-07-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Forecast,2155
+2025-07-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Budget,966
+2025-07-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Forecast,829
+2025-07-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Budget,293
+2025-07-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Forecast,458
+2025-07-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Budget,2119
+2025-07-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Forecast,2034
+2025-07-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Budget,3263
+2025-07-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Forecast,3166
+2025-07-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Budget,743
+2025-07-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Forecast,588
+2025-07-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Budget,1724
+2025-07-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Forecast,1775
+2025-07-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Budget,2327
+2025-07-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Forecast,2273
+2025-07-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Budget,1134
+2025-07-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Forecast,1148
+2025-07-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Budget,1652
+2025-07-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Forecast,1730
+2025-07-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Budget,1239
+2025-07-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Forecast,1361
+2025-07-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Budget,837
+2025-07-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Forecast,942
+2025-07-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Budget,2427
+2025-07-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Forecast,2386
+2025-07-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Budget,1884
+2025-07-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Forecast,1934
+2025-07-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Budget,978
+2025-07-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Forecast,1045
+2025-07-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Budget,2230
+2025-07-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Forecast,2178
+2025-07-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Budget,1108
+2025-07-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Forecast,1283
+2025-07-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Budget,716
+2025-07-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Forecast,721
+2025-07-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Budget,1643
+2025-07-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Forecast,1730
+2025-07-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Budget,2025
+2025-07-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Forecast,2130
+2025-07-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Budget,879
+2025-07-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Forecast,829
+2025-07-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Budget,751
+2025-07-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Forecast,800
+2025-07-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Budget,684
+2025-07-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Forecast,631
+2025-07-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Budget,515
+2025-07-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Forecast,463
+2025-07-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Budget,787
+2025-07-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Forecast,773
+2025-07-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Budget,847
+2025-07-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Forecast,922
+2025-07-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Budget,462
+2025-07-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Forecast,445
+2025-07-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Budget,663
+2025-07-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Forecast,766
+2025-07-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Budget,829
+2025-07-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Forecast,902
+2025-07-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Budget,182
+2025-07-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Forecast,211
+2025-07-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Budget,1554
+2025-07-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Forecast,1424
+2025-07-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Budget,1061
+2025-07-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Forecast,1026
+2025-07-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Budget,663
+2025-07-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Forecast,523
+2025-07-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Budget,1104
+2025-07-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Forecast,1043
+2025-07-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Budget,1069
+2025-07-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Forecast,919
+2025-07-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Budget,680
+2025-07-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Forecast,545
+2025-07-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Budget,876
+2025-07-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Forecast,762
+2025-07-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Budget,593
+2025-07-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Forecast,613
+2025-07-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Budget,633
+2025-07-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Forecast,562
+2025-08-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Budget,2824
+2025-08-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Forecast,2898
+2025-08-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Budget,2645
+2025-08-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Forecast,2502
+2025-08-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Budget,910
+2025-08-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Forecast,887
+2025-08-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Budget,1994
+2025-08-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Forecast,2059
+2025-08-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Budget,1839
+2025-08-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Forecast,1982
+2025-08-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Budget,623
+2025-08-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Forecast,575
+2025-08-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Budget,2432
+2025-08-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Forecast,2400
+2025-08-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Budget,1391
+2025-08-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Forecast,1321
+2025-08-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Budget,530
+2025-08-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Forecast,535
+2025-08-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Budget,2435
+2025-08-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Forecast,2407
+2025-08-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Budget,1594
+2025-08-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Forecast,1706
+2025-08-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Budget,903
+2025-08-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Forecast,738
+2025-08-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Budget,2151
+2025-08-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Forecast,2130
+2025-08-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Budget,1892
+2025-08-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Forecast,1760
+2025-08-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Budget,601
+2025-08-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Forecast,557
+2025-08-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Budget,1599
+2025-08-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Forecast,1440
+2025-08-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Budget,1304
+2025-08-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Forecast,1387
+2025-08-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Budget,577
+2025-08-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Forecast,529
+2025-08-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Budget,3096
+2025-08-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Forecast,3034
+2025-08-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Budget,2788
+2025-08-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Forecast,2772
+2025-08-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Budget,1148
+2025-08-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Forecast,1249
+2025-08-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Budget,2462
+2025-08-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Forecast,2510
+2025-08-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Budget,1507
+2025-08-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Forecast,1555
+2025-08-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Budget,1274
+2025-08-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Forecast,1112
+2025-08-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Budget,2310
+2025-08-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Forecast,2197
+2025-08-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Budget,1338
+2025-08-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Forecast,1298
+2025-08-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Budget,758
+2025-08-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Forecast,776
+2025-08-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Budget,1746
+2025-08-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Forecast,1756
+2025-08-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Budget,2209
+2025-08-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Forecast,2322
+2025-08-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Budget,918
+2025-08-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Forecast,934
+2025-08-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Budget,1292
+2025-08-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Forecast,1410
+2025-08-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Budget,1445
+2025-08-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Forecast,1450
+2025-08-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Budget,822
+2025-08-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Forecast,849
+2025-08-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Budget,1728
+2025-08-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Forecast,1760
+2025-08-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Budget,1109
+2025-08-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Forecast,1155
+2025-08-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Budget,554
+2025-08-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Forecast,611
+2025-08-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Budget,1266
+2025-08-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Forecast,1192
+2025-08-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Budget,1402
+2025-08-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Forecast,1481
+2025-08-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Budget,496
+2025-08-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Forecast,490
+2025-08-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Budget,1134
+2025-08-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Forecast,1247
+2025-08-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Budget,783
+2025-08-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Forecast,841
+2025-08-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Budget,258
+2025-08-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Forecast,216
+2025-08-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Budget,1007
+2025-08-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Forecast,1114
+2025-08-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Budget,506
+2025-08-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Forecast,450
+2025-08-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Budget,169
+2025-08-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Forecast,304
+2025-08-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Budget,1128
+2025-08-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Forecast,1240
+2025-08-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Budget,1317
+2025-08-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Forecast,1265
+2025-08-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Budget,633
+2025-08-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Forecast,524
+2025-08-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Budget,1302
+2025-08-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Forecast,1330
+2025-08-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Budget,1419
+2025-08-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Forecast,1567
+2025-08-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Budget,579
+2025-08-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Forecast,661
+2025-08-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Budget,1066
+2025-08-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Forecast,893
+2025-08-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Budget,1267
+2025-08-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Forecast,1099
+2025-08-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Budget,479
+2025-08-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Forecast,467
+2025-09-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Budget,1613
+2025-09-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Forecast,1521
+2025-09-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Budget,2567
+2025-09-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Forecast,2426
+2025-09-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Budget,902
+2025-09-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Forecast,1001
+2025-09-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Budget,2476
+2025-09-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Forecast,2404
+2025-09-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Budget,2198
+2025-09-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Forecast,2108
+2025-09-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Budget,656
+2025-09-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Forecast,701
+2025-09-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Budget,2150
+2025-09-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Forecast,2107
+2025-09-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Budget,1523
+2025-09-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Forecast,1464
+2025-09-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Budget,492
+2025-09-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Forecast,551
+2025-09-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Budget,2084
+2025-09-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Forecast,2138
+2025-09-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Budget,1508
+2025-09-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Forecast,1520
+2025-09-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Budget,666
+2025-09-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Forecast,531
+2025-09-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Budget,2120
+2025-09-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Forecast,2071
+2025-09-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Budget,1669
+2025-09-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Forecast,1646
+2025-09-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Budget,620
+2025-09-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Forecast,519
+2025-09-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Budget,1761
+2025-09-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Forecast,1674
+2025-09-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Budget,1503
+2025-09-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Forecast,1606
+2025-09-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Budget,359
+2025-09-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Forecast,488
+2025-09-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Budget,3523
+2025-09-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Forecast,3484
+2025-09-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Budget,2255
+2025-09-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Forecast,2273
+2025-09-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Budget,1142
+2025-09-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Forecast,1147
+2025-09-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Budget,2023
+2025-09-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Forecast,1890
+2025-09-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Budget,2144
+2025-09-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Forecast,2161
+2025-09-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Budget,767
+2025-09-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Forecast,796
+2025-09-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Budget,1982
+2025-09-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Forecast,2037
+2025-09-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Budget,2265
+2025-09-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Forecast,2322
+2025-09-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Budget,704
+2025-09-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Forecast,690
+2025-09-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Budget,2211
+2025-09-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Forecast,2245
+2025-09-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Budget,2173
+2025-09-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Forecast,2285
+2025-09-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Budget,1042
+2025-09-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Forecast,1128
+2025-09-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Budget,2890
+2025-09-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Forecast,2739
+2025-09-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Budget,1260
+2025-09-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Forecast,1180
+2025-09-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Budget,609
+2025-09-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Forecast,705
+2025-09-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Budget,2704
+2025-09-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Forecast,2762
+2025-09-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Budget,1316
+2025-09-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Forecast,1282
+2025-09-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Budget,662
+2025-09-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Forecast,726
+2025-09-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Budget,1367
+2025-09-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Forecast,1278
+2025-09-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Budget,605
+2025-09-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Forecast,669
+2025-09-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Budget,565
+2025-09-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Forecast,516
+2025-09-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Budget,1584
+2025-09-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Forecast,1565
+2025-09-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Budget,1320
+2025-09-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Forecast,1157
+2025-09-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Budget,548
+2025-09-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Forecast,488
+2025-09-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Budget,1235
+2025-09-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Forecast,1153
+2025-09-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Budget,870
+2025-09-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Forecast,809
+2025-09-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Budget,130
+2025-09-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Forecast,157
+2025-09-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Budget,1486
+2025-09-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Forecast,1474
+2025-09-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Budget,1241
+2025-09-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Forecast,1378
+2025-09-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Budget,404
+2025-09-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Forecast,301
+2025-09-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Budget,1408
+2025-09-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Forecast,1332
+2025-09-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Budget,1381
+2025-09-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Forecast,1308
+2025-09-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Budget,644
+2025-09-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Forecast,675
+2025-09-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Budget,1693
+2025-09-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Forecast,1606
+2025-09-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Budget,1151
+2025-09-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Forecast,1216
+2025-09-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Budget,412
+2025-09-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Forecast,396
+2025-10-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Budget,2737
+2025-10-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Forecast,2638
+2025-10-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Budget,2113
+2025-10-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Forecast,2136
+2025-10-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Budget,995
+2025-10-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Forecast,845
+2025-10-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Budget,2632
+2025-10-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Forecast,2598
+2025-10-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Budget,1703
+2025-10-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Forecast,1770
+2025-10-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Budget,834
+2025-10-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Forecast,722
+2025-10-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Budget,2463
+2025-10-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Forecast,2632
+2025-10-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Budget,1503
+2025-10-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Forecast,1317
+2025-10-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Budget,928
+2025-10-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Forecast,801
+2025-10-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Budget,1982
+2025-10-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Forecast,1986
+2025-10-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Budget,1260
+2025-10-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Forecast,1218
+2025-10-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Budget,743
+2025-10-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Forecast,711
+2025-10-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Budget,1819
+2025-10-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Forecast,1774
+2025-10-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Budget,1180
+2025-10-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Forecast,1260
+2025-10-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Budget,565
+2025-10-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Forecast,506
+2025-10-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Budget,1509
+2025-10-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Forecast,1412
+2025-10-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Budget,856
+2025-10-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Forecast,911
+2025-10-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Budget,632
+2025-10-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Forecast,798
+2025-10-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Budget,3724
+2025-10-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Forecast,3623
+2025-10-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Budget,2794
+2025-10-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Forecast,2703
+2025-10-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Budget,1037
+2025-10-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Forecast,1147
+2025-10-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Budget,2170
+2025-10-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Forecast,2290
+2025-10-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Budget,1790
+2025-10-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Forecast,1808
+2025-10-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Budget,1014
+2025-10-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Forecast,1003
+2025-10-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Budget,2513
+2025-10-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Forecast,2545
+2025-10-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Budget,1864
+2025-10-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Forecast,1917
+2025-10-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Budget,1010
+2025-10-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Forecast,1056
+2025-10-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Budget,1838
+2025-10-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Forecast,1864
+2025-10-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Budget,1390
+2025-10-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Forecast,1455
+2025-10-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Budget,628
+2025-10-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Forecast,629
+2025-10-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Budget,2852
+2025-10-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Forecast,2919
+2025-10-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Budget,1699
+2025-10-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Forecast,1566
+2025-10-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Budget,974
+2025-10-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Forecast,946
+2025-10-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Budget,2341
+2025-10-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Forecast,2288
+2025-10-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Budget,1929
+2025-10-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Forecast,2001
+2025-10-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Budget,829
+2025-10-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Forecast,887
+2025-10-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Budget,1888
+2025-10-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Forecast,1831
+2025-10-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Budget,930
+2025-10-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Forecast,887
+2025-10-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Budget,508
+2025-10-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Forecast,558
+2025-10-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Budget,1741
+2025-10-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Forecast,1646
+2025-10-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Budget,1303
+2025-10-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Forecast,1248
+2025-10-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Budget,321
+2025-10-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Forecast,389
+2025-10-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Budget,1571
+2025-10-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Forecast,1493
+2025-10-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Budget,1243
+2025-10-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Forecast,1224
+2025-10-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Budget,217
+2025-10-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Forecast,202
+2025-10-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Budget,1205
+2025-10-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Forecast,1057
+2025-10-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Budget,1077
+2025-10-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Forecast,971
+2025-10-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Budget,452
+2025-10-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Forecast,483
+2025-10-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Budget,1533
+2025-10-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Forecast,1428
+2025-10-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Budget,1670
+2025-10-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Forecast,1723
+2025-10-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Budget,613
+2025-10-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Forecast,547
+2025-10-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Budget,1696
+2025-10-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Forecast,1746
+2025-10-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Budget,1376
+2025-10-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Forecast,1260
+2025-10-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Budget,468
+2025-10-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Forecast,557
+2025-11-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Budget,2638
+2025-11-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Forecast,2715
+2025-11-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Budget,1677
+2025-11-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Forecast,1770
+2025-11-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Budget,709
+2025-11-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Forecast,692
+2025-11-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Budget,2118
+2025-11-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Forecast,2007
+2025-11-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Budget,1654
+2025-11-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Forecast,1589
+2025-11-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Budget,917
+2025-11-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Forecast,800
+2025-11-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Budget,1428
+2025-11-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Forecast,1428
+2025-11-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Budget,1987
+2025-11-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Forecast,1880
+2025-11-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Budget,456
+2025-11-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Forecast,525
+2025-11-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Budget,1527
+2025-11-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Forecast,1474
+2025-11-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Budget,2228
+2025-11-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Forecast,2155
+2025-11-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Budget,620
+2025-11-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Forecast,694
+2025-11-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Budget,1724
+2025-11-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Forecast,1663
+2025-11-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Budget,1139
+2025-11-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Forecast,1117
+2025-11-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Budget,398
+2025-11-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Forecast,526
+2025-11-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Budget,1598
+2025-11-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Forecast,1681
+2025-11-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Budget,1350
+2025-11-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Forecast,1468
+2025-11-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Budget,668
+2025-11-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Forecast,604
+2025-11-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Budget,2685
+2025-11-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Forecast,2728
+2025-11-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Budget,1662
+2025-11-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Forecast,1796
+2025-11-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Budget,817
+2025-11-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Forecast,819
+2025-11-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Budget,2803
+2025-11-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Forecast,2867
+2025-11-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Budget,2219
+2025-11-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Forecast,2156
+2025-11-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Budget,673
+2025-11-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Forecast,783
+2025-11-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Budget,2688
+2025-11-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Forecast,2688
+2025-11-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Budget,2339
+2025-11-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Forecast,2384
+2025-11-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Budget,1012
+2025-11-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Forecast,1011
+2025-11-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Budget,2822
+2025-11-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Forecast,2916
+2025-11-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Budget,2115
+2025-11-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Forecast,2122
+2025-11-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Budget,947
+2025-11-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Forecast,934
+2025-11-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Budget,2391
+2025-11-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Forecast,2446
+2025-11-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Budget,1311
+2025-11-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Forecast,1334
+2025-11-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Budget,797
+2025-11-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Forecast,877
+2025-11-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Budget,2176
+2025-11-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Forecast,2128
+2025-11-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Budget,1275
+2025-11-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Forecast,1170
+2025-11-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Budget,560
+2025-11-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Forecast,439
+2025-11-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Budget,743
+2025-11-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Forecast,786
+2025-11-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Budget,1605
+2025-11-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Forecast,1535
+2025-11-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Budget,288
+2025-11-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Forecast,365
+2025-11-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Budget,1518
+2025-11-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Forecast,1608
+2025-11-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Budget,1215
+2025-11-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Forecast,1277
+2025-11-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Budget,439
+2025-11-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Forecast,465
+2025-11-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Budget,1490
+2025-11-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Forecast,1455
+2025-11-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Budget,597
+2025-11-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Forecast,513
+2025-11-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Budget,543
+2025-11-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Forecast,559
+2025-11-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Budget,1149
+2025-11-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Forecast,1195
+2025-11-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Budget,1949
+2025-11-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Forecast,1795
+2025-11-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Budget,576
+2025-11-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Forecast,599
+2025-11-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Budget,1683
+2025-11-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Forecast,1663
+2025-11-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Budget,1666
+2025-11-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Forecast,1618
+2025-11-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Budget,451
+2025-11-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Forecast,520
+2025-11-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Budget,1106
+2025-11-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Forecast,1043
+2025-11-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Budget,670
+2025-11-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Forecast,669
+2025-11-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Budget,431
+2025-11-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Forecast,353
+2025-12-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Budget,3161
+2025-12-01,Space Systems,Satellite Engineering,Hartford,CT,Systems Engineer,Forecast,3075
+2025-12-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Budget,1421
+2025-12-01,Space Systems,Satellite Engineering,Hartford,CT,Software Engineer,Forecast,1528
+2025-12-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Budget,1128
+2025-12-01,Space Systems,Satellite Engineering,Hartford,CT,Program Manager,Forecast,1169
+2025-12-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Budget,1962
+2025-12-01,Space Systems,Satellite Engineering,Tampa,FL,Systems Engineer,Forecast,2024
+2025-12-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Budget,1356
+2025-12-01,Space Systems,Satellite Engineering,Tampa,FL,Software Engineer,Forecast,1307
+2025-12-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Budget,997
+2025-12-01,Space Systems,Satellite Engineering,Tampa,FL,Program Manager,Forecast,824
+2025-12-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Budget,2537
+2025-12-01,Space Systems,Satellite Engineering,Tucson,AZ,Systems Engineer,Forecast,2596
+2025-12-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Budget,1258
+2025-12-01,Space Systems,Satellite Engineering,Tucson,AZ,Software Engineer,Forecast,1282
+2025-12-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Budget,606
+2025-12-01,Space Systems,Satellite Engineering,Tucson,AZ,Program Manager,Forecast,671
+2025-12-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Budget,2637
+2025-12-01,Space Systems,Mission Operations,Hartford,CT,Systems Engineer,Forecast,2524
+2025-12-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Budget,2272
+2025-12-01,Space Systems,Mission Operations,Hartford,CT,Software Engineer,Forecast,2199
+2025-12-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Budget,574
+2025-12-01,Space Systems,Mission Operations,Hartford,CT,Program Manager,Forecast,649
+2025-12-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Budget,1534
+2025-12-01,Space Systems,Mission Operations,Tampa,FL,Systems Engineer,Forecast,1614
+2025-12-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Budget,1867
+2025-12-01,Space Systems,Mission Operations,Tampa,FL,Software Engineer,Forecast,1736
+2025-12-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Budget,558
+2025-12-01,Space Systems,Mission Operations,Tampa,FL,Program Manager,Forecast,642
+2025-12-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Budget,1854
+2025-12-01,Space Systems,Mission Operations,Tucson,AZ,Systems Engineer,Forecast,1811
+2025-12-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Budget,1339
+2025-12-01,Space Systems,Mission Operations,Tucson,AZ,Software Engineer,Forecast,1255
+2025-12-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Budget,485
+2025-12-01,Space Systems,Mission Operations,Tucson,AZ,Program Manager,Forecast,549
+2025-12-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Budget,2286
+2025-12-01,Aviation Systems,Aircraft Systems,Hartford,CT,Systems Engineer,Forecast,2253
+2025-12-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Budget,1712
+2025-12-01,Aviation Systems,Aircraft Systems,Hartford,CT,Software Engineer,Forecast,1824
+2025-12-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Budget,1265
+2025-12-01,Aviation Systems,Aircraft Systems,Hartford,CT,Program Manager,Forecast,1110
+2025-12-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Budget,3561
+2025-12-01,Aviation Systems,Aircraft Systems,Tampa,FL,Systems Engineer,Forecast,3644
+2025-12-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Budget,1711
+2025-12-01,Aviation Systems,Aircraft Systems,Tampa,FL,Software Engineer,Forecast,1564
+2025-12-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Budget,1308
+2025-12-01,Aviation Systems,Aircraft Systems,Tampa,FL,Program Manager,Forecast,1227
+2025-12-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Budget,2464
+2025-12-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Systems Engineer,Forecast,2443
+2025-12-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Budget,1595
+2025-12-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Software Engineer,Forecast,1726
+2025-12-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Budget,925
+2025-12-01,Aviation Systems,Aircraft Systems,Tucson,AZ,Program Manager,Forecast,875
+2025-12-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Budget,1952
+2025-12-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Systems Engineer,Forecast,1939
+2025-12-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Budget,2650
+2025-12-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Software Engineer,Forecast,2652
+2025-12-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Budget,769
+2025-12-01,Aviation Systems,Maintenance & Repair,Hartford,CT,Program Manager,Forecast,812
+2025-12-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Budget,1948
+2025-12-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Systems Engineer,Forecast,1874
+2025-12-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Budget,2573
+2025-12-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Software Engineer,Forecast,2577
+2025-12-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Budget,713
+2025-12-01,Aviation Systems,Maintenance & Repair,Tampa,FL,Program Manager,Forecast,674
+2025-12-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Budget,2407
+2025-12-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Systems Engineer,Forecast,2325
+2025-12-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Budget,1901
+2025-12-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Software Engineer,Forecast,1865
+2025-12-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Budget,641
+2025-12-01,Aviation Systems,Maintenance & Repair,Tucson,AZ,Program Manager,Forecast,679
+2025-12-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Budget,1056
+2025-12-01,Digital Security,Cybersecurity,Hartford,CT,Systems Engineer,Forecast,1046
+2025-12-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Budget,1364
+2025-12-01,Digital Security,Cybersecurity,Hartford,CT,Software Engineer,Forecast,1376
+2025-12-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Budget,600
+2025-12-01,Digital Security,Cybersecurity,Hartford,CT,Program Manager,Forecast,672
+2025-12-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Budget,867
+2025-12-01,Digital Security,Cybersecurity,Tampa,FL,Systems Engineer,Forecast,803
+2025-12-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Budget,1178
+2025-12-01,Digital Security,Cybersecurity,Tampa,FL,Software Engineer,Forecast,1005
+2025-12-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Budget,331
+2025-12-01,Digital Security,Cybersecurity,Tampa,FL,Program Manager,Forecast,369
+2025-12-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Budget,1351
+2025-12-01,Digital Security,Cybersecurity,Tucson,AZ,Systems Engineer,Forecast,1189
+2025-12-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Budget,985
+2025-12-01,Digital Security,Cybersecurity,Tucson,AZ,Software Engineer,Forecast,1060
+2025-12-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Budget,331
+2025-12-01,Digital Security,Cybersecurity,Tucson,AZ,Program Manager,Forecast,294
+2025-12-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Budget,1491
+2025-12-01,Digital Security,Software Engineering,Hartford,CT,Systems Engineer,Forecast,1410
+2025-12-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Budget,1566
+2025-12-01,Digital Security,Software Engineering,Hartford,CT,Software Engineer,Forecast,1504
+2025-12-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Budget,636
+2025-12-01,Digital Security,Software Engineering,Hartford,CT,Program Manager,Forecast,657
+2025-12-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Budget,976
+2025-12-01,Digital Security,Software Engineering,Tampa,FL,Systems Engineer,Forecast,816
+2025-12-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Budget,1085
+2025-12-01,Digital Security,Software Engineering,Tampa,FL,Software Engineer,Forecast,1135
+2025-12-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Budget,697
+2025-12-01,Digital Security,Software Engineering,Tampa,FL,Program Manager,Forecast,611
+2025-12-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Budget,1347
+2025-12-01,Digital Security,Software Engineering,Tucson,AZ,Systems Engineer,Forecast,1411
+2025-12-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Budget,846
+2025-12-01,Digital Security,Software Engineering,Tucson,AZ,Software Engineer,Forecast,860
+2025-12-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Budget,558
+2025-12-01,Digital Security,Software Engineering,Tucson,AZ,Program Manager,Forecast,595
