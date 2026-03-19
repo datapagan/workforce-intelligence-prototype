@@ -1,0 +1,14 @@
+# Temp / logs
+*.log
+*.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Data files (optional if large)
+# data/
+
+# OS
+.DS_Store
+Thumbs.db
