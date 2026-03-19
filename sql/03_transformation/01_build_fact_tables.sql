@@ -41,7 +41,7 @@ SELECT
     location_city,
     location_state,
     job_role,
-    SUM(actual_headcount) AS actual_headcount
+    SUM(EMPLOYEE_ID) AS actual_headcount
 FROM WORKFORCE_PLANNING.RAW.EMPLOYEE_ACTUALS_RAW
 GROUP BY
     snapshot_date,
@@ -54,23 +54,23 @@ GROUP BY
 -- Variance Table
 CREATE OR REPLACE TABLE FACT_WORKFORCE_VARIANCE AS
 SELECT
-    f.snapshot_date,
-    f.business_unit,
-    f.department,
-    f.location_city,
-    f.location_state,
-    f.job_role,
-    f.plan_type,
-    f.planned_headcount,
-    f.hiring_needed,
-    f.attrition_expected,
-    a.actual_headcount,
-    f.planned_headcount - a.actual_headcount AS headcount_gap
+    f.SNAPSHOT_DATE,
+    f.BUSINESS_UNIT,
+    f.DEPARTMENT,
+    f.LOCATION_CITY,
+    f.LOCATION_STATE,
+    f.JOB_ROLE,
+    f.PLAN_TYPE,
+    f.PLANNED_HEADCOUNT,
+    f.HIRING_NEEDED,
+    f.ATTRITION_EXPECTED,
+    COALESCE(a.ACTUAL_HEADCOUNT, 0) AS ACTUAL_HEADCOUNT,
+    f.PLANNED_HEADCOUNT - COALESCE(a.ACTUAL_HEADCOUNT, 0) AS HEADCOUNT_GAP
 FROM FACT_WORKFORCE_PLAN f
 LEFT JOIN ACTUAL_HEADCOUNT a
-    ON f.snapshot_date = a.snapshot_date
-   AND f.business_unit = a.business_unit
-   AND f.department = a.department
-   AND f.location_city = a.location_city
-   AND f.location_state = a.location_state
-   AND f.job_role = a.job_role;
+    ON f.SNAPSHOT_DATE = a.SNAPSHOT_DATE
+   AND f.BUSINESS_UNIT = a.BUSINESS_UNIT
+   AND f.DEPARTMENT = a.DEPARTMENT
+   AND f.LOCATION_CITY = a.LOCATION_CITY
+   AND f.LOCATION_STATE = a.LOCATION_STATE
+   AND f.JOB_ROLE = a.JOB_ROLE;
