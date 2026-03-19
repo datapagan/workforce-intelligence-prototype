@@ -197,39 +197,78 @@ This layer stores source data **as-is** and represents the ingestion boundary.
 ### Curated Layer
 
 #### FACT_WORKFORCE_PLAN
-Combines headcount plan, hiring plan, and attrition plan into a unified dataset.
+Integrates headcount plan, hiring plan, and attrition plan into a unified, scenario-based dataset.
+
+This table aligns all planning inputs at a consistent grain, enabling direct comparison of:
+
+- planned headcount  
+- hiring demand  
+- expected attrition  
+
+across business units, functions, locations, and time periods.
+
+It serves as the foundational dataset for workforce planning and variance analysis.
 
 #### ACTUAL_HEADCOUNT
 Aggregates employee-level data to compute actual workforce supply.
 
 #### FACT_WORKFORCE_VARIANCE
-Joins planned and actual workforce data and calculates:
+Combines planned workforce data with actual workforce supply to quantify workforce gaps and capacity alignment.
 
+This table joins `FACT_WORKFORCE_PLAN` with actual workforce data to calculate:
+
+- actual_headcount  
 - headcount_gap = planned_headcount - actual_headcount  
 
-This is the core analytical dataset.
+It enables direct comparison between workforce demand and available capacity across:
+
+- time (snapshot_date)  
+- business units  
+- departments  
+- locations  
+- job roles  
+- planning scenarios (Budget vs Forecast)  
+
+This dataset is the core analytical layer for identifying:
+
+- workforce shortages and surpluses  
+- hiring requirements  
+- capacity risks  
+
+and supports decision-making for workforce planning and resource allocation.
 
 ---
 
 ### Analytics Layer
 
 #### VW_WORKFORCE_SUMMARY
-Provides an aggregated executive-level view by:
+Provides an aggregated, executive-level view of workforce capacity, demand, and variance.
+
+This view summarizes workforce metrics across key dimensions:
 
 - snapshot_date  
 - business_unit  
 - plan_type  
 
-**Key outputs:**
+**Key metrics include:**
 
-- total actual headcount  
-- total planned headcount  
-- total hiring needed  
-- total attrition expected  
-- total headcount gap  
-- capacity_ratio  
+- total_actual_headcount  
+- total_planned_headcount  
+- total_hiring_needed  
+- total_attrition_expected  
+- total_headcount_gap  
+- capacity_ratio (actual_headcount / planned_headcount)  
 
-This view supports leadership-level workforce insights.
+It enables leadership to quickly assess:
+
+- overall workforce capacity vs demand  
+- hiring requirements at a strategic level  
+- impact of attrition on workforce readiness  
+- differences between Budget and Forecast scenarios  
+
+This view is designed to support high-level decision-making, trend analysis, and executive reporting.
+
+It serves as the primary interface for dashboards and executive workforce reporting.
 
 ---
 
