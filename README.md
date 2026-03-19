@@ -67,18 +67,32 @@ The data simulates workforce planning across business units such as:
 ## Datasets
 
 ### Employee Actuals
-Represents the current workforce baseline.
+Represents the current workforce baseline at the same planning grain as the headcount plan.
 
-**Example fields:**
-- employee_id  
+Each row reflects a workforce segment (not individual employees), including:
+
+- snapshot_date  
 - business_unit  
 - department  
 - location_city  
 - location_state  
 - job_role  
-- snapshot_date  
 
-Used to calculate **actual workforce supply**.
+**Measures included:**
+- actual_headcount  
+- actual_hires  
+- actual_attrition  
+
+This dataset is used to calculate **actual workforce supply** and support variance analysis against planned headcount.
+
+> **Note:**  
+> The raw table retains legacy column names from an earlier employee-level design.  
+> In the current implementation:
+> - `EMPLOYEE_ID` represents `actual_headcount`  
+> - `TENURE_YEARS` represents `actual_hires`  
+> - `AGE` represents `actual_attrition`  
+>  
+> These fields are treated as aggregated workforce measures rather than individual employee attributes.
 
 ---
 
