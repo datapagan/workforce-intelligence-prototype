@@ -41,7 +41,7 @@ SELECT
     location_city,
     location_state,
     job_role,
-    COUNT(*) AS actual_headcount
+    SUM(actual_headcount) AS actual_headcount
 FROM WORKFORCE_PLANNING.RAW.EMPLOYEE_ACTUALS_RAW
 GROUP BY
     snapshot_date,
