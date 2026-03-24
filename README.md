@@ -22,7 +22,7 @@
 - [Database Structure](#database-structure)
 - [Project Structure](#project-structure)
 - [Technical Stack](#technical-stack)
-- [Example Analytical Questions](#example-analytical-questions)
+- [Sample Analytical Questions](#sample-analytical-questions)
 - [Key Value](#key-value)
 - [Next Steps](#next-steps)
 
@@ -45,7 +45,7 @@ This project models that planning process by connecting:
 - hiring needs  
 - attrition expectations  
 
-The goal is to enable **proactive workforce planning**, allowing decisions to be made before capacity constraints impact operations.
+The goal is to enable proactive workforce planning, allowing decisions to be made before capacity constraints impact operations.
 
 ---
 
@@ -79,12 +79,13 @@ Each row reflects a workforce segment, including:
 - location_state  
 - job_role  
 
-**Measures included:**
+Measures included:
+
 - actual_headcount  
 - actual_hires  
 - actual_attrition  
 
-This dataset is used to calculate **actual workforce supply** and support variance analysis against planned headcount.
+This dataset is used to calculate actual workforce supply and support variance analysis against planned headcount.
 
 > **Note:**  
 > The raw table retains legacy column names from an earlier employee-level design.  
@@ -95,12 +96,11 @@ This dataset is used to calculate **actual workforce supply** and support varian
 >
 > These fields are treated as aggregated workforce measures rather than individual employee attributes.
 
----
-
 ### Headcount Plan
 Represents forecasted workforce demand.
 
-**Example fields:**
+Example fields:
+
 - business_unit  
 - department  
 - location_city  
@@ -110,14 +110,13 @@ Represents forecasted workforce demand.
 - plan_type  
 - planned_headcount  
 
-Used to define **required workforce demand**.
-
----
+Used to define required workforce demand.
 
 ### Hiring Plan
 Represents projected hiring needs.
 
-**Example fields:**
+Example fields:
+
 - business_unit  
 - department  
 - location_city  
@@ -127,14 +126,13 @@ Represents projected hiring needs.
 - plan_type  
 - hiring_needed  
 
-Supports **staffing strategy and recruiting planning**.
-
----
+Supports staffing strategy and recruiting planning.
 
 ### Attrition Plan
 Represents projected workforce losses.
 
-**Example fields:**
+Example fields:
+
 - business_unit  
 - department  
 - location_city  
@@ -144,11 +142,13 @@ Represents projected workforce losses.
 - plan_type  
 - attrition_expected  
 
-Used to model **workforce risk and turnover impact**.
+Used to model workforce risk and turnover impact.
 
 ---
 
 ## Planning Logic
+
+> **Note:** This simplified planning logic is included for prototype demonstration purposes and to show how business rules can be represented in a workforce planning model.
 
 The model follows a simplified workforce planning framework:
 
@@ -157,7 +157,7 @@ The model follows a simplified workforce planning framework:
 - **Projected Attrition** → expected workforce losses  
 - **Hiring Need** → Required Headcount - Available Workforce + Attrition  
 
-This approach enables forward-looking workforce planning instead of reactive staffing adjustments.
+This approach demonstrates how workforce planning concepts can be translated into analytical logic.
 
 ---
 
@@ -176,6 +176,8 @@ These metrics provide a consistent and scalable framework for workforce analysis
 
 ## Example Use Case
 
+The following example is illustrative and is included to show how workforce planning logic can be translated into an analytical calculation.
+
 A business unit expects increased demand requiring **120 employees**:
 
 - Current workforce: 110  
@@ -183,7 +185,7 @@ A business unit expects increased demand requiring **120 employees**:
 
 **Hiring Need = 120 - 110 + 6 = 16**
 
-This illustrates how the model supports workforce forecasting and hiring strategy.
+This example illustrates how the model can support workforce forecasting and hiring strategy.
 
 ---
 
@@ -199,12 +201,9 @@ Data is ingested from CSV files into raw source tables:
 - `ATTRITION_PLAN_RAW`
 - `EMPLOYEE_ACTUALS_RAW`
 
-This layer stores source data **as-is** and represents the ingestion boundary.
-
----
+This layer stores source data as-is and represents the ingestion boundary.
 
 ### Curated Layer
-
 This layer contains integrated and business-ready workforce planning tables.
 
 #### `ACTUAL_HEADCOUNT`
@@ -237,10 +236,7 @@ It serves as the core analytical dataset for identifying:
 - hiring requirements  
 - capacity risks  
 
----
-
 ### Published Layer
-
 This layer contains reporting-ready outputs for downstream consumption.
 
 #### `VW_WORKFORCE_SUMMARY`
@@ -252,7 +248,7 @@ This view summarizes metrics by:
 - business_unit  
 - plan_type  
 
-**Key metrics include:**
+Key metrics include:
 
 - total_actual_headcount  
 - total_planned_headcount  
@@ -311,6 +307,7 @@ This layered design improves scalability, maintainability, and clarity by separa
 
 #### Schema: `RAW`
 Source-loaded tables:
+
 - `EMPLOYEE_ACTUALS_RAW`
 - `HEADCOUNT_PLAN_RAW`
 - `HIRING_PLAN_RAW`
@@ -318,12 +315,14 @@ Source-loaded tables:
 
 #### Schema: `CURATED`
 Integrated and business-ready tables:
+
 - `ACTUAL_HEADCOUNT`
 - `FACT_WORKFORCE_PLAN`
 - `FACT_WORKFORCE_VARIANCE`
 
 #### Schema: `PUBLISHED`
 Reporting-ready views:
+
 - `VW_WORKFORCE_SUMMARY`
 
 ---
@@ -347,9 +346,9 @@ Reporting-ready views:
 
 ---
 
-## Example Analytical Questions
+## Sample Analytical Questions
 
-This model enables analysis such as:
+These sample questions are included to illustrate the types of business questions this workforce planning model could support.
 
 - Where are the largest workforce gaps?  
 - Which roles require the most hiring?  
