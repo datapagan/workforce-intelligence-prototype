@@ -1,5 +1,5 @@
 USE DATABASE WORKFORCE_PLANNING;
-USE SCHEMA CURATED;
+USE SCHEMA PUBLISHED;
 
 CREATE OR REPLACE VIEW VW_WORKFORCE_SUMMARY AS
 SELECT
@@ -12,10 +12,10 @@ SELECT
     SUM(attrition_expected) AS total_attrition_expected,
     SUM(headcount_gap) AS total_headcount_gap,
     ROUND(
-        SUM(actual_headcount) / NULLIF(SUM(planned_headcount),0),
+        SUM(actual_headcount) / NULLIF(SUM(planned_headcount), 0),
         4
     ) AS capacity_ratio
-FROM FACT_WORKFORCE_VARIANCE
+FROM WORKFORCE_PLANNING.CURATED.FACT_WORKFORCE_VARIANCE
 GROUP BY
     snapshot_date,
     business_unit,

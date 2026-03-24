@@ -15,8 +15,8 @@
 - [Example Use Case](#example-use-case)
 - [Data Architecture](#data-architecture)
   - [Raw Layer](#raw-layer)
-  - [Transform Layer](#transform-layer)
   - [Curated Layer](#curated-layer)
+  - [Published Layer](#published-layer)
 - [Data Grain](#data-grain)
 - [Pipeline Execution](#pipeline-execution)
 - [Database Structure](#database-structure)
@@ -203,31 +203,25 @@ This layer stores source data **as-is** and represents the ingestion boundary.
 
 ---
 
-### Transform Layer
-
-This layer standardizes and integrates raw workforce datasets into reusable intermediate tables.
-
-#### `ACTUAL_HEADCOUNT`
-Aggregates current workforce data to compute actual workforce supply at the planning grain.
-
-#### `FACT_WORKFORCE_PLAN`
-Integrates headcount plan, hiring plan, and attrition plan into a unified planning dataset.
-
-This table aligns all planning inputs at a consistent grain, enabling direct comparison of:
-
-- planned headcount  
-- hiring demand  
-- expected attrition  
-
-across business units, departments, locations, job roles, time periods, and planning scenarios.
-
-The Transform layer is where integration and business logic begin before final analytical outputs are produced.
-
----
-
 ### Curated Layer
 
-This layer contains final business-ready analytical outputs.
+This layer contains integrated and business-ready workforce planning tables.
+
+#### `ACTUAL_HEADCOUNT`
+Aggregates workforce actuals to the workforce planning grain.
+
+In the current implementation, the legacy field `EMPLOYEE_ID` is used as the workforce measure representing actual headcount.
+
+#### `FACT_WORKFORCE_PLAN`
+Integrates headcount plan, hiring plan, and attrition plan into a unified workforce planning dataset.
+
+This table aligns planning inputs at a consistent grain, enabling direct comparison of:
+
+- planned headcount  
+- hiring needed  
+- attrition expected  
+
+across business units, departments, locations, roles, time periods, and planning scenarios.
 
 #### `FACT_WORKFORCE_VARIANCE`
 Combines workforce planning data with actual workforce supply to quantify workforce gaps and capacity alignment.
@@ -237,21 +231,17 @@ This table joins `FACT_WORKFORCE_PLAN` with `ACTUAL_HEADCOUNT` to calculate:
 - actual_headcount  
 - headcount_gap = planned_headcount - actual_headcount  
 
-It enables direct comparison between workforce demand and available capacity across:
-
-- snapshot_date  
-- business_unit  
-- department  
-- location_city  
-- location_state  
-- job_role  
-- plan_type  
-
-This is the core analytical dataset for identifying:
+It serves as the core analytical dataset for identifying:
 
 - workforce shortages and surpluses  
 - hiring requirements  
 - capacity risks  
+
+---
+
+### Published Layer
+
+This layer contains reporting-ready outputs for downstream consumption.
 
 #### `VW_WORKFORCE_SUMMARY`
 Provides an aggregated, executive-level summary of workforce capacity, demand, and variance.
@@ -271,7 +261,7 @@ This view summarizes metrics by:
 - total_headcount_gap  
 - capacity_ratio  
 
-It is designed to support executive reporting, high-level decision-making, and trend analysis.
+It is designed to support executive reporting, dashboard consumption, high-level decision-making, and trend analysis.
 
 ---
 
@@ -296,25 +286,22 @@ This consistent grain ensures accurate joins, aggregation, and comparability acr
 The project follows this execution flow:
 
 1. **Setup Environment**  
-   - Create database and schemas (`RAW`, `TRANSFORM`, `CURATED`)
+   - Create database and schemas (`RAW`, `CURATED`, `PUBLISHED`)
 
 2. **Ingest Raw Data**  
    - Load CSV files into raw source tables
 
-3. **Transform Data**  
-   - Build intermediate transformation tables:
+3. **Build Curated Tables**  
+   - Create:
      - `ACTUAL_HEADCOUNT`
      - `FACT_WORKFORCE_PLAN`
-
-4. **Curate Analytical Outputs**  
-   - Build final analytical table:
      - `FACT_WORKFORCE_VARIANCE`
 
-5. **Create Reporting View**  
-   - Create executive summary view:
+4. **Publish Reporting View**  
+   - Create:
      - `VW_WORKFORCE_SUMMARY`
 
-This layered design improves scalability, maintainability, and clarity by separating ingestion, transformation logic, and final analytical outputs.
+This layered design improves scalability, maintainability, and clarity by separating ingestion, business modeling, and published analytical outputs.
 
 ---
 
@@ -329,14 +316,14 @@ Source-loaded tables:
 - `HIRING_PLAN_RAW`
 - `ATTRITION_PLAN_RAW`
 
-#### Schema: `TRANSFORM`
-Intermediate transformation tables:
+#### Schema: `CURATED`
+Integrated and business-ready tables:
 - `ACTUAL_HEADCOUNT`
 - `FACT_WORKFORCE_PLAN`
-
-#### Schema: `CURATED`
-Business-ready analytical objects:
 - `FACT_WORKFORCE_VARIANCE`
+
+#### Schema: `PUBLISHED`
+Reporting-ready views:
 - `VW_WORKFORCE_SUMMARY`
 
 ---
@@ -345,8 +332,8 @@ Business-ready analytical objects:
 
 - **01_setup** → environment setup  
 - **02_ingestion** → raw data loading  
-- **03_transformation** → intermediate transformation logic  
-- **04_analytics** → curated outputs and reporting views  
+- **03_transformation** → curated table creation logic  
+- **04_analytics** → published reporting views  
 - **archive** → legacy scripts not used in the final implementation  
 
 ---
@@ -379,10 +366,10 @@ This project demonstrates how to:
 
 - translate business demand into workforce requirements  
 - integrate multiple workforce datasets into a unified planning model  
-- separate raw ingestion, transformation logic, and analytical outputs  
+- separate raw ingestion, curated business modeling, and published analytical outputs  
 - produce decision-ready workforce insights for leadership  
 
-It highlights the ability to move from **raw data → transformed model → curated analytics**.
+It highlights the ability to move from **raw data → curated model → published analytics**.
 
 ---
 
