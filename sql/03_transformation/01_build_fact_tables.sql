@@ -1,7 +1,28 @@
 USE DATABASE WORKFORCE_PLANNING;
 USE SCHEMA CURATED;
 
--- Workforce Plan Fact
+-- =========================================================
+-- CURATED LAYER: Workforce Planning Model
+-- =========================================================
+-- This script builds the curated workforce planning tables:
+-- 1. FACT_WORKFORCE_PLAN
+-- 2. ACTUAL_HEADCOUNT
+-- 3. FACT_WORKFORCE_VARIANCE
+--
+-- Note:
+-- EMPLOYEE_ACTUALS_RAW retains legacy column names from an
+-- earlier employee-level design.
+-- In the current implementation:
+--   EMPLOYEE_ID   = actual_headcount
+--   TENURE_YEARS = actual_hires
+--   AGE          = actual_attrition
+-- =========================================================
+
+-- =========================================================
+-- 1. FACT_WORKFORCE_PLAN
+-- Integrates headcount plan, hiring plan, and attrition plan
+-- at a consistent workforce planning grain.
+-- =========================================================
 CREATE OR REPLACE TABLE FACT_WORKFORCE_PLAN AS
 SELECT
     hc.snapshot_date,
@@ -32,7 +53,11 @@ LEFT JOIN WORKFORCE_PLANNING.RAW.ATTRITION_PLAN_RAW ap
    AND hc.job_role = ap.job_role
    AND hc.plan_type = ap.plan_type;
 
--- Actual Headcount
+-- =========================================================
+-- 2. ACTUAL_HEADCOUNT
+-- Aggregates workforce actuals to the same planning grain.
+-- Legacy column EMPLOYEE_ID is used as actual_headcount.
+-- =========================================================
 CREATE OR REPLACE TABLE ACTUAL_HEADCOUNT AS
 SELECT
     snapshot_date,
@@ -41,7 +66,7 @@ SELECT
     location_city,
     location_state,
     job_role,
-    SUM(EMPLOYEE_ID) AS actual_headcount
+    SUM(employee_id) AS actual_headcount
 FROM WORKFORCE_PLANNING.RAW.EMPLOYEE_ACTUALS_RAW
 GROUP BY
     snapshot_date,
@@ -51,26 +76,30 @@ GROUP BY
     location_state,
     job_role;
 
--- Variance Table
+-- =========================================================
+-- 3. FACT_WORKFORCE_VARIANCE
+-- Combines workforce plan and actual workforce supply to
+-- calculate workforce gap.
+-- =========================================================
 CREATE OR REPLACE TABLE FACT_WORKFORCE_VARIANCE AS
 SELECT
-    f.SNAPSHOT_DATE,
-    f.BUSINESS_UNIT,
-    f.DEPARTMENT,
-    f.LOCATION_CITY,
-    f.LOCATION_STATE,
-    f.JOB_ROLE,
-    f.PLAN_TYPE,
-    f.PLANNED_HEADCOUNT,
-    f.HIRING_NEEDED,
-    f.ATTRITION_EXPECTED,
-    COALESCE(a.ACTUAL_HEADCOUNT, 0) AS ACTUAL_HEADCOUNT,
-    f.PLANNED_HEADCOUNT - COALESCE(a.ACTUAL_HEADCOUNT, 0) AS HEADCOUNT_GAP
-FROM FACT_WORKFORCE_PLAN f
-LEFT JOIN ACTUAL_HEADCOUNT a
-    ON f.SNAPSHOT_DATE = a.SNAPSHOT_DATE
-   AND f.BUSINESS_UNIT = a.BUSINESS_UNIT
-   AND f.DEPARTMENT = a.DEPARTMENT
-   AND f.LOCATION_CITY = a.LOCATION_CITY
-   AND f.LOCATION_STATE = a.LOCATION_STATE
-   AND f.JOB_ROLE = a.JOB_ROLE;
+    f.snapshot_date,
+    f.business_unit,
+    f.department,
+    f.location_city,
+    f.location_state,
+    f.job_role,
+    f.plan_type,
+    COALESCE(a.actual_headcount, 0) AS actual_headcount,
+    f.planned_headcount,
+    f.hiring_needed,
+    f.attrition_expected,
+    f.planned_headcount - COALESCE(a.actual_headcount, 0) AS headcount_gap
+FROM WORKFORCE_PLANNING.CURATED.FACT_WORKFORCE_PLAN f
+LEFT JOIN WORKFORCE_PLANNING.CURATED.ACTUAL_HEADCOUNT a
+    ON f.snapshot_date = a.snapshot_date
+   AND f.business_unit = a.business_unit
+   AND f.department = a.department
+   AND f.location_city = a.location_city
+   AND f.location_state = a.location_state
+   AND f.job_role = a.job_role;
