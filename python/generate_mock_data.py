@@ -109,16 +109,17 @@ for month_index, month in enumerate(months):
                     actual_hires = max(1, int(actual_headcount * random.uniform(0.01, 0.04)))
                     actual_attrition = max(0, int(actual_headcount * random.uniform(0.005, 0.025)))
 
-                    for i in range(actual_headcount):
-                        employee_actuals.append([
-                            f"E{month_index:02d}{i:05d}",   # actual_headcount
-                            month,
-                            business_unit,
-                            department,
-                            location,
-                            state,
-                            job_family,
-                        ])
+                    employee_actuals.append([
+                        month,
+                        business_unit,
+                        department,
+                        location,
+                        state,
+                        job_family,
+                        actual_headcount,
+                        actual_hires,
+                        actual_attrition,
+                    ])
 
                     for scenario in scenarios:
                         hc_adjust = random.randint(-120, 120)
@@ -176,13 +177,8 @@ def write_csv(path, headers, rows):
 write_csv(
     inbound_dir / "employee_actuals.csv",
     [
-    "actual_headcount",
-    "snapshot_date",
-    "business_unit",
-    "department",
-    "location_city",
-    "location_state",
-    "job_role"
+        "month", "business_unit", "department", "location", "state",
+        "job_family", "actual_headcount", "actual_hires", "actual_attrition"
     ],
     employee_actuals,
 )
