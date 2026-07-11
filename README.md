@@ -19,6 +19,7 @@
   - [Published Layer](#published-layer)
 - [Data Grain](#data-grain)
 - [Pipeline Execution](#pipeline-execution)
+- [Data Quality Validation](#data-quality-validation)
 - [Database Structure](#database-structure)
 - [Project Structure](#project-structure)
 - [Technical Stack](#technical-stack)
@@ -286,7 +287,31 @@ The project follows this execution flow:
    - Create:
      - `VW_WORKFORCE_SUMMARY`
 
+5. **Validate**  
+   - Run `sql/05_validation/06_data_quality_validation.sql`
+   - Confirm all checks pass before consuming the published view
+
 This layered design improves scalability, maintainability, and clarity by separating ingestion, business modeling, and published analytical outputs.
+
+---
+
+## Data Quality Validation
+
+The pipeline includes validation checks applied before analytics are published,
+mirroring the validation discipline used in production analytics environments:
+
+- **Layer reconciliation** — row counts compared between RAW sources and CURATED
+  tables to confirm no records are lost or duplicated during transformation.
+- **Grain integrity** — NULL checks on every grain column, since a NULL grain
+  value silently breaks joins and aggregation.
+- **Duplicate grain detection** — verifies one row per declared grain; duplicates
+  at the grain double-count every downstream metric.
+- **Metric reconciliation** — totals in the published executive view are compared
+  against the curated fact tables to confirm the reporting layer matches the model.
+- **Business-rule sanity checks** — flags impossible values such as negative
+  headcount or implausible capacity ratios.
+
+Validation scripts are in `sql/05_validation/`.
 
 ---
 
@@ -367,6 +392,5 @@ Potential enhancements include:
 
 - building a Tableau or Power BI dashboard  
 - adding workforce scenario modeling  
-- implementing data quality validation checks  
 - automating ingestion with Snowpipe, Airflow, or Azure Data Factory  
 - expanding planning dimensions such as labor cost, skill type, or productivity assumptions  
