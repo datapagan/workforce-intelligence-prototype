@@ -12,26 +12,26 @@ Workforce data files are generated locally and uploaded into Snowflake using Sno
 Example commands:
 
 ```sql
-PUT file://C:/Project/workforce-intelligence-protype/data/inbound_sftp/employee_actuals.csv 
-@WORKFORCE_INTELLIGENCE.RAW_WORKFORCE.WORKFORCE_INBOUND_STAGE 
+PUT file://C:/Project/workforce-intelligence-prototype/data/inbound_sftp/employee_actuals.csv 
+@WORKFORCE_PLANNING.RAW.STG_WORKFORCE_FILES 
 AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
 
-PUT file://C:/Project/workforce-intelligence-protype/data/inbound_sftp/headcount_plan.csv 
-@WORKFORCE_INTELLIGENCE.RAW_WORKFORCE.WORKFORCE_INBOUND_STAGE 
+PUT file://C:/Project/workforce-intelligence-prototype/data/inbound_sftp/headcount_plan.csv 
+@WORKFORCE_PLANNING.RAW.STG_WORKFORCE_FILES 
 AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
 
-PUT file://C:/Project/workforce-intelligence-protype/data/inbound_sftp/hiring_plan.csv 
-@WORKFORCE_INTELLIGENCE.RAW_WORKFORCE.WORKFORCE_INBOUND_STAGE 
+PUT file://C:/Project/workforce-intelligence-prototype/data/inbound_sftp/hiring_plan.csv 
+@WORKFORCE_PLANNING.RAW.STG_WORKFORCE_FILES 
 AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
 
-PUT file://C:/Project/workforce-intelligence-protype/data/inbound_sftp/attrition_plan.csv 
-@WORKFORCE_INTELLIGENCE.RAW_WORKFORCE.WORKFORCE_INBOUND_STAGE 
+PUT file://C:/Project/workforce-intelligence-prototype/data/inbound_sftp/attrition_plan.csv 
+@WORKFORCE_PLANNING.RAW.STG_WORKFORCE_FILES 
 AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
 
-PUT file://C:/Project/workforce-intelligence-protype/data/reference/org_dimension.csv 
-@WORKFORCE_INTELLIGENCE.RAW_WORKFORCE.WORKFORCE_INBOUND_STAGE 
+PUT file://C:/Project/workforce-intelligence-prototype/data/reference/org_dimension.csv 
+@WORKFORCE_PLANNING.RAW.STG_WORKFORCE_FILES 
 AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
 
-PUT file://C:/Project/workforce-intelligence-protype/data/reference/location_dimension.csv 
-@WORKFORCE_INTELLIGENCE.RAW_WORKFORCE.WORKFORCE_INBOUND_STAGE 
+PUT file://C:/Project/workforce-intelligence-prototype/data/reference/location_dimension.csv 
+@WORKFORCE_PLANNING.RAW.STG_WORKFORCE_FILES 
 AUTO_COMPRESS=FALSE OVERWRITE=TRUE;
