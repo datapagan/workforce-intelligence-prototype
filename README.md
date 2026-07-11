@@ -87,15 +87,6 @@ Measures included:
 
 This dataset is used to calculate actual workforce supply and support variance analysis against planned headcount.
 
-> **Note:**  
-> The raw table retains legacy column names from an earlier employee-level design.  
-> In the current implementation:
-> - `EMPLOYEE_ID` represents `actual_headcount`
-> - `TENURE_YEARS` represents `actual_hires`
-> - `AGE` represents `actual_attrition`
->
-> These fields are treated as aggregated workforce measures rather than individual employee attributes.
-
 ### Headcount Plan
 Represents forecasted workforce demand.
 
@@ -208,8 +199,6 @@ This layer contains integrated and business-ready workforce planning tables.
 
 #### `ACTUAL_HEADCOUNT`
 Aggregates workforce actuals to the workforce planning grain.
-
-In the current implementation, the legacy field `EMPLOYEE_ID` is used as the workforce measure representing actual headcount.
 
 #### `FACT_WORKFORCE_PLAN`
 Integrates headcount plan, hiring plan, and attrition plan into a unified workforce planning dataset.

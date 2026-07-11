@@ -8,14 +8,6 @@ USE SCHEMA CURATED;
 -- 1. FACT_WORKFORCE_PLAN
 -- 2. ACTUAL_HEADCOUNT
 -- 3. FACT_WORKFORCE_VARIANCE
---
--- Note:
--- EMPLOYEE_ACTUALS_RAW retains legacy column names from an
--- earlier employee-level design.
--- In the current implementation:
---   EMPLOYEE_ID   = actual_headcount
---   TENURE_YEARS = actual_hires
---   AGE          = actual_attrition
 -- =========================================================
 
 -- =========================================================
@@ -56,7 +48,6 @@ LEFT JOIN WORKFORCE_PLANNING.RAW.ATTRITION_PLAN_RAW ap
 -- =========================================================
 -- 2. ACTUAL_HEADCOUNT
 -- Aggregates workforce actuals to the same planning grain.
--- Legacy column EMPLOYEE_ID is used as actual_headcount.
 -- =========================================================
 CREATE OR REPLACE TABLE ACTUAL_HEADCOUNT AS
 SELECT
@@ -66,7 +57,7 @@ SELECT
     location_city,
     location_state,
     job_role,
-    SUM(employee_id) AS actual_headcount
+    SUM(actual_headcount) AS actual_headcount
 FROM WORKFORCE_PLANNING.RAW.EMPLOYEE_ACTUALS_RAW
 GROUP BY
     snapshot_date,

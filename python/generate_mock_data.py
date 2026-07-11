@@ -111,7 +111,7 @@ for month_index, month in enumerate(months):
 
                     for i in range(actual_headcount):
                         employee_actuals.append([
-                            f"E{month_index:02d}{i:05d}",   # employee_id
+                            f"E{month_index:02d}{i:05d}",   # actual_headcount
                             month,
                             business_unit,
                             department,
@@ -176,7 +176,7 @@ def write_csv(path, headers, rows):
 write_csv(
     inbound_dir / "employee_actuals.csv",
     [
-    "employee_id",
+    "actual_headcount",
     "snapshot_date",
     "business_unit",
     "department",

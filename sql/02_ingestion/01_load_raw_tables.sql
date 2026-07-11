@@ -9,9 +9,9 @@ CREATE OR REPLACE TABLE EMPLOYEE_ACTUALS_RAW (
     location_city STRING,
     location_state STRING,
     job_role STRING,
-    employee_id NUMBER,
-    tenure_years NUMBER,
-    age NUMBER
+    actual_headcount NUMBER,
+    actual_hires NUMBER,
+    actual_attrition NUMBER
 );
 
 COPY INTO EMPLOYEE_ACTUALS_RAW
